@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3">
+	<realmCode code="FR"/>
+	<typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+	<templateId root="2.16.840.1.113883.2.8.2.1" assigningAuthorityName="HL7 France"/>
+	<templateId root="1.2.250.1.213.1.1.1.1" assigningAuthorityName="Cadre InteropASIP"/>
+	<templateId root="1.3.6.1.4.1.19376.1.2.20" assigningAuthorityName="IHE XDS-SD"/>
+	<id root="2.16.840.1.113883.2.4.3.2.6.1.1.4"/>
+	<code code="27899-4" displayName="CR d'acte diagnostique (autre)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+	<title>Compte rendu</title>
+	<effectiveTime value="20100903114745+0100"/>
+	<confidentialityCode code="N" displayName="Normal" codeSystem="2.16.840.1.113883.5.25"/>
+	<languageCode code="fr-FR"/>
+	<recordTarget>
+		<patientRole>
+			<id extension="1626680051219127059725" root="1.2.250.1.213.1.4.2"/>
+			<id extension="0456789999" root="1.2.250.1.999.1.1.7898.2"/>
+			<addr nullFlavor="NASK"/>
+			<telecom nullFlavor="NASK"/>
+			<patient>
+				<name>
+					<given>FRANCOISE</given>
+					<family qualifier="SP">pat-huit</family>
+					<suffix/>
+				</name>
+				<administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"/>
+				<birthTime value="19760414"/>
+			</patient>
+		</patientRole>
+	</recordTarget>
+	<author>
+		<functionCode nullFlavor="UNK"/>
+		<time value="20100903114745+0100"/>
+		<assignedAuthor>
+			<id root="1.2.250.1.71.4.2.1" extension="00B1022322" assigningAuthorityName="GIP-CPS"/>
+			<code code="G15_10/SM04" displayName="Médecin - Cardiologie et maladies vasculaires (SM)" codeSystem="1.2.250.1.213.1.1.4.5"/>
+			<addr nullFlavor="NASK"/>
+			<telecom nullFlavor="NASK"/>
+			<assignedPerson>
+				<name>
+					<given>FELIX</given>
+					<family>CARDIO-CH2232</family>
+					<prefix>Dr.</prefix>
+					<suffix/>
+				</name>
+			</assignedPerson>
+			<representedOrganization>
+				<id root="1.2.250.1.71.4.2.2" extension="10B0007712" assigningAuthorityName="GIP-CPS"/>
+			</representedOrganization>
+		</assignedAuthor>
+	</author>
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id root="1.2.250.1.71.4.2.2" extension="10B0007712" assigningAuthorityName="GIP-CPS"/>
+				<name>HOPITAL DES 3 VALLEES00771</name>
+                <telecom nullFlavor="NASK"/>
+				<addr nullFlavor="NASK"/>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+	<legalAuthenticator>
+		<time value="20100903114745+0100"/>
+		<signatureCode code="S"/>
+		<assignedEntity>
+			<id root="1.2.250.1.71.4.2.1" extension="00B1022322" assigningAuthorityName="GIP-CPS"/>
+			<addr nullFlavor="NASK"/>
+			<telecom nullFlavor="NASK"/>
+			<assignedPerson>
+				<name>
+					<given>FELIX</given>
+					<family>CARDIO-CH2232</family>
+					<prefix>Dr.</prefix>
+					<suffix/>
+				</name>
+			</assignedPerson>
+		</assignedEntity>
+	</legalAuthenticator>
+	<documentationOf>
+		<serviceEvent>
+			<code code="H33" displayName="Décollement et déchirement de la rétine" codeSystem="2.16.840.1.113883.6.3"/>
+			<effectiveTime>
+				<low value="20100319"/>
+				<high value="20100319"/>
+			</effectiveTime>
+			<performer typeCode="PRF">
+				<functionCode nullFlavor="UNK"/>
+				<assignedEntity>
+					<id root="1.2.250.1.71.4.2.1" extension="00B1022322" assigningAuthorityName="GIP-CPS"/>
+					<addr nullFlavor="NASK"/>
+					<telecom nullFlavor="NASK"/>
+					<assignedPerson>
+						<name>
+							<given>FELIX</given>
+							<family>CARDIO-CH2232</family>
+							<prefix>Dr.</prefix>
+							<suffix/>
+						</name>
+					</assignedPerson>
+					<representedOrganization>
+						<id root="1.2.250.1.71.4.2.2" extension="300000000004036" assigningAuthorityName="GIP-CPS"/>
+						<name>enovation.fr</name>
+						<telecom nullFlavor="NASK"/>
+                        <addr nullFlavor="NASK"/>
+						<standardIndustryClassCode code="ETABLISSEMENT" displayName="Etablissement de sante" codeSystem="1.2.250.1.213.1.1.4.9"/>
+					</representedOrganization>
+				</assignedEntity>
+			</performer>
+		</serviceEvent>
+	</documentationOf>
+	<componentOf>
+		<encompassingEncounter>
+			<effectiveTime>
+				<low value="20100319"/>
+			</effectiveTime>
+			<location>
+				<healthCareFacility>
+					<code code="SA41" displayName="Etablissement de santé" codeSystem="1.2.250.1.71.4.2.4" codeSystemName="R02"/>
+				</healthCareFacility>
+			</location>
+		</encompassingEncounter>
+	</componentOf>
+	<component>
+		<nonXMLBody>
+			<text mediaType="text/plain" representation="B64">dGVzdCBkb2M=</text>
+		</nonXMLBody>
+	</component>
+</ClinicalDocument>

@@ -1,0 +1,7 @@
+fr\xperis\dmp\tools\ValidatorCDA.class
+fr\xperis\dmp\tools\MetadataService.class
+fr\xperis\dmp\tools\XltpGetUUID.class
+fr\xperis\dmp\tools\XltpPdfToB64.class
+fr\xperis\dmp\tools\ValidatorCDA$MissingPropertiesException.class
+fr\xperis\dmp\tools\ValidFormatAck$1.class
+fr\xperis\dmp\tools\ValidFormatAck.class

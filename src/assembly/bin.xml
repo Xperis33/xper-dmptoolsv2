@@ -1,0 +1,9 @@
+<fileSets>
+    <fileSet>
+        <directory>target</directory>
+        <outputDirectory>lib</outputDirectory>
+        <includes>
+            <include>generate-assembly-*.jar</include>
+        </includes>
+    </fileSet>
+</fileSets>

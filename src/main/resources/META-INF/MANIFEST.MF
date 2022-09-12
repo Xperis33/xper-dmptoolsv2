@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: ffonvillia
+Build-Jdk: 1.7.0_80
+Created-By: Apache Maven 3.3.9
+Archiver-Version: Plexus Archiver
+Class-Path: lib/dmp-1.0-SNAPSHOT.jar lib/log4j-1.2.16.jar lib/sl4j-log4j12-1.7.21.jar
