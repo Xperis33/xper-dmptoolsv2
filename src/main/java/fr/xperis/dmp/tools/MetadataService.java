@@ -51,7 +51,6 @@ public class MetadataService {
                     .addCanalValue((String)rawUserData.get("ADD_VALEUR_ACCES"))
                     .canalAction((String)rawUserData.get("ACTION_ACCES"))
                     .birthDate((String)rawUserData.get("DATE_NAISS"))
-                    .cdaPath(rawUserData.get("CDA_PATH")+"/"+rawUserData.get("CDA_NAME"))
                     .deletion((String)rawUserData.get("SUPRESS"))
                     .doc1InternalID((String)rawUserData.get("DOCUMENT_ID"))
                     .doc1UniqueId((String)rawUserData.get("OID_DOCUMENT"))
